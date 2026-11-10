@@ -1,0 +1,40 @@
+{
+  "name": "opencode-warp-retry",
+  "version": "1.0.0",
+  "description": "Automatically rotate Cloudflare WARP and retry when OpenCode hits a free usage limit.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "README.pt-BR.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "cloudflare",
+    "warp",
+    "proxy",
+    "free-limit",
+    "retry"
+  ],
+  "license": "MIT",
+  "author": "lipey1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipey1/opencode-warp-retry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lipey1/opencode-warp-retry/issues"
+  },
+  "homepage": "https://github.com/lipey1/opencode-warp-retry#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  }
+}

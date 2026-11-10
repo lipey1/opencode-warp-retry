@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    {
+      "package": "opencode-warp-retry",
+      "options": {
+        "proxyUrl": "http://127.0.0.1:40000",
+        "retryDelayMs": 1000,
+        "maxRotations": 3
+      }
+    }
+  ]
+}
