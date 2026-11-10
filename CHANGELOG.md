@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Docs: dedicated Linux section (WARP client install, proxy mode, service/desktop entry, log check).
+- Docs: npm package and release ZIP links.
+- Docs: note that the Windows launcher does not apply on Linux.
+
 ## 1.0.0
 
 - Initial release.
